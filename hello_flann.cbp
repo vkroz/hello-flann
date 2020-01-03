@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hello_flann"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_openmp">
+				<Option output="/Users/vkroz/src/CLionProjects/hello-flann/hello_openmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libomp/9.0.0/include"/>
+					<Add directory="/usr/local/Cellar/lz4/1.9.2/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.10.5_1/include"/>
+					<Add directory="/usr/local/Cellar/flann/1.9.1_7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 hello_openmp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_openmp/fast">
+				<Option output="/Users/vkroz/src/CLionProjects/hello-flann/hello_openmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libomp/9.0.0/include"/>
+					<Add directory="/usr/local/Cellar/lz4/1.9.2/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.10.5_1/include"/>
+					<Add directory="/usr/local/Cellar/flann/1.9.1_7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 hello_openmp/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_flann">
+				<Option output="/Users/vkroz/src/CLionProjects/hello-flann/hello_flann" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libomp/9.0.0/include"/>
+					<Add directory="/usr/local/Cellar/lz4/1.9.2/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.10.5_1/include"/>
+					<Add directory="/usr/local/Cellar/flann/1.9.1_7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 hello_flann"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_flann/fast">
+				<Option output="/Users/vkroz/src/CLionProjects/hello-flann/hello_flann" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vkroz/src/CLionProjects/hello-flann"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libomp/9.0.0/include"/>
+					<Add directory="/usr/local/Cellar/lz4/1.9.2/include"/>
+					<Add directory="/usr/local/Cellar/hdf5/1.10.5_1/include"/>
+					<Add directory="/usr/local/Cellar/flann/1.9.1_7/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 hello_flann/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/vkroz/src/CLionProjects/hello-flann/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vkroz/src/CLionProjects/hello-flann/hello_flann.cpp">
+			<Option target="hello_flann"/>
+		</Unit>
+		<Unit filename="/Users/vkroz/src/CLionProjects/hello-flann/hello_openmp.cpp">
+			<Option target="hello_openmp"/>
+		</Unit>
+		<Unit filename="/Users/vkroz/src/CLionProjects/hello-flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
